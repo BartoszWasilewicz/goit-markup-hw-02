@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3%;
+    text-decoration: none;
+    }
+
+:root {
+    --brand-color: #212121;
+}
+
+ul {
+    list-style-type: none;  
+}
+
+p {
+    color: #757575;
+    font-weight: 400;
+}
+
+[href] {
+    text-decoration: none;
+    font-style: normal;
+}
+
+a[href^="mailto"],
+a[href^="tel"] {
+    color: var(--brand-color);
+}
+
+a:visited {
+    color: var(--brand-color);
+}
+
+span,
+#index {
+    color: #2196F3;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+[type="button"] {
+    cursor: pointer;
+    background-color: #F5F4FA;
+    border: none;
+}
+
+button:hover,
+button:focus[type="button"] {
+background-color: #2196F3;
+color: #FFFFFF;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 27px;
+    color: #2196F3;
+    font-family: 'Raleway';
+}
+
+
