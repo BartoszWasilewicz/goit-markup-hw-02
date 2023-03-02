@@ -22,18 +22,46 @@ p {
     font-style: normal;
 }
 
-a[href^="mailto"],
-a[href^="tel"] {
+a {
     color: var(--brand-color);
 }
+
 
 a:visited {
     color: var(--brand-color);
 }
+footer a[href] {
+    color: #FFFFFF;
+    line-height: 24px;
+}
 
-span,
-#index {
+li a[href*="tel"],
+li a[href*="mail"] {
+    color:#757575;
+}
+
+a[href^="index.html"].logo>span {
     color: #2196F3;
+}
+
+a[href]:hover,
+a[href]:focus {
+    color: #2196F3;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-style: bold;
+    line-height: 42px;
+
 }
 
 h3 {
@@ -60,4 +88,23 @@ color: #FFFFFF;
     font-family: 'Raleway';
 }
 
+footer {
+    background-color: #2F303A;
+    color: #FFFFFF;
+}
 
+section.main {
+    background-color: #2F303A;
+    text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    color: #FFFFFF;
+}
+
+section.main button {
+    background-color: #2196F3;
+}
+
+section.crew {
+    background-color: #F5F4FA;
+}
