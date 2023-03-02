@@ -2,6 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     letter-spacing: 3%;
     text-decoration: none;
+    color: var(--brand-color)
     }
 
 :root {
@@ -14,7 +15,6 @@ ul {
 
 p {
     color: #757575;
-    font-weight: 400;
 }
 
 [href] {
@@ -24,6 +24,7 @@ p {
 
 a {
     color: var(--brand-color);
+    text-decoration-color: none;
 }
 
 
@@ -52,7 +53,7 @@ a[href]:focus {
 h1 {
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1.36;
     text-align: center;
 }
 
@@ -60,7 +61,7 @@ h2 {
     text-align: center;
     font-size: 36px;
     font-style: bold;
-    line-height: 42px;
+    line-height: 1.17;
 
 }
 
@@ -83,14 +84,14 @@ color: #FFFFFF;
 
 .logo {
     font-weight: 700;
-    font-size: 27px;
-    color: #2196F3;
+    font-size: 26px;
     font-family: 'Raleway';
 }
 
 footer {
     background-color: #2F303A;
     color: #FFFFFF;
+    line-height: 1.7;
 }
 
 section.main {
