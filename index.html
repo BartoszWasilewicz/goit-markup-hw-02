@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dokument</title>
+    <title>Agencja</title>
     <link rel="stylesheet" href="/goit-markup-hw-02/css/styles.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,35 +15,35 @@
             <a href="index.html" class="logo"><span>Web</span>Studio</a>
         <nav>
             <ul>
-                <li><a href="index.html">Agencja</a></li>
+                <li><a href="index.html" class="current">Agencja</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
                 <li><a href="#kontakt">Kontakt</a></li>
             </ul>
         </nav>
     <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+        <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
+        <li><a href="tel:+48111111111" class="contact">+48 111 111 111</a></li>
     </ul>
 </header>
 <main>
     <section class="main">
-        <h1>Efektywne rozwiązania dla waszego biznesu</h1>
-            <button type="button" class="button">Zamów usługę</button>
+        <h1 class="title">Efektywne rozwiązania dla waszego biznesu</h1>
+            <button type="button" class="button_main">Zamów usługę</button>
     </section>
-    <section>
+    <section class="loremipsum">
         <ul>
-            <li>Lorem ipsum
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In vitae aliquid officia pariatur quas consectetur magni incidunt laboriosam, explicabo aliquam iure ipsa esse voluptatibus eligendi, at itaque quam ad vel.</p></li>
-            <li>Lorem ipsum
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequuntur eaque, quibusdam amet nulla doloremque distinctio architecto aliquam fuga itaque sint repudiandae doloribus quaerat illo commodi voluptatum aperiam eligendi nesciunt.</p></li>
-            <li>Lorem ipsum
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt quaerat nulla enim a quasi debitis nobis error, consequuntur porro cumque ullam facilis quibusdam nam modi aspernatur iusto aperiam molestias.</p></li>
-            <li>Lorem ipsum
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ea fugit optio sint corporis, sapiente totam, eum eius odio ut recusandae asperiores debitis rerum dolore! Recusandae voluptas inventore quaerat ut?</p></li>
+            <li class="lorem_listitem">Lorem ipsum
+                <p class="lorem_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. In vitae aliquid officia pariatur quas consectetur magni incidunt laboriosam, explicabo aliquam iure ipsa esse voluptatibus eligendi, at itaque quam ad vel.</p></li>
+            <li class="lorem_listitem">Lorem ipsum
+                <p class="lorem_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae consequuntur eaque, quibusdam amet nulla doloremque distinctio architecto aliquam fuga itaque sint repudiandae doloribus quaerat illo commodi voluptatum aperiam eligendi nesciunt.</p></li>
+            <li class="lorem_listitem">Lorem ipsum
+                <p class="lorem_p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo deserunt quaerat nulla enim a quasi debitis nobis error, consequuntur porro cumque ullam facilis quibusdam nam modi aspernatur iusto aperiam molestias.</p></li>
+            <li class="lorem_listitem">Lorem ipsum
+                <p class="lorem_p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ea fugit optio sint corporis, sapiente totam, eum eius odio ut recusandae asperiores debitis rerum dolore! Recusandae voluptas inventore quaerat ut?</p></li>
         </ul>
     </section>
-    <section>
-        <h2>Czym się zajmujemy</h2>
+    <section class="photos_index">
+        <h2 class="section_title">Czym się zajmujemy</h2>
         <ul>   
         <li><img src="./images/img3.jpg" class="photo"
                 alt="man typing on keyboard"
@@ -57,20 +57,20 @@
         </ul>
     </section>
     <section class="crew">
-        <h2>Nasz zespół</h2>
+        <h2 class="section_title">Nasz zespół</h2>
             <ul>
                 <li><img src="./images/imgD.jpg" alt="man in red shirt, beard and glasses on white background"
                     width="270" height="260">
-                <h3>John Doe</h3><p>Product Designer</p></li>
+                <h3 class="section_crewmember">John Doe</h3><p class="section_crewmember_desctription">Product Designer</p></li>
                 <li><img src="./images/imgC.jpg" alt="woman with blonde hair and glasses"
                     width="270" height="260">
-                <h3>John Doe</h3><p>Frontend Developer</p></li>
+                <h3 class="section_crewmember">John Doe</h3><p class="section_crewmember_desctription">Frontend Developer</p></li>
                 <li><img src="./images/imgB.jpg" alt="man in blue shirt"
                     width="270" height="260">
-                <h3>John Doe</h3><p>Marketing</p></li>
+                <h3 class="section_crewmember">John Doe</h3><p class="section_crewmember_desctription">Marketing</p></li>
                 <li><img src="./images/imgA.jpg" alt="man with black t-shirt, beard and glasses on urban background"
                     width="270" height="260">
-                <h3>John Doe</h3><p>UI Designer</p></li>
+                <h3 class="section_crewmember">John Doe</h3><p class="section_crewmember_desctription">UI Designer</p></li>
             </ul>
     </section>
 </main>
@@ -78,9 +78,9 @@
     <a href="index.html" class="logo"><span>Web</span>Studio</a>
     <address>
         <ul>
-            <li><a href="https://goo.gl/maps/yBvTfhxwu55WHwSw8" target="_blank" rel="noopener nofollow">m. Warszawa, Aleje Jerozolimskie 21</a></li>
-            <li><a href="mailto:info@example.com">info@example.com</a></li>
-            <li><a href="tel:+48111111111">+48 111 111 111</a></li>
+            <li><a href="https://goo.gl/maps/yBvTfhxwu55WHwSw8" target="_blank" rel="noopener nofollow" class="contact_googlemaps">m. Warszawa, Aleje Jerozolimskie 21</a></li>
+            <li><a href="mailto:info@example.com" class="contact">info@example.com</a></li>
+            <li><a href="tel:+48111111111" class="contact">+48 111 111 111</a></li>
         </ul>
     </address>
 </footer>
